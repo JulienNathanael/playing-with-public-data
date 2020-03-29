@@ -48,9 +48,9 @@ def prepare_df_states(df):
 
 if __name__ == '__main__':
     path_dir_data = os.path.join(path_dir_COVID19_repo, 'csse_covid_19_data', 'csse_covid_19_time_series')
-    path_confirmed = os.path.join(path_dir_data, 'time_series_19-covid-Confirmed.csv')
-    path_deaths = os.path.join(path_dir_data, 'time_series_19-covid-Deaths.csv')
-    path_recovered = os.path.join(path_dir_data, 'time_series_19-covid-Recovered.csv')
+    path_confirmed = os.path.join(path_dir_data, 'time_series_covid19_confirmed_global.csv')
+    path_deaths = os.path.join(path_dir_data, 'time_series_covid19_deaths_global.csv')
+    path_recovered = os.path.join(path_dir_data, 'time_series_covid19_recovered_global.csv')
 
     # Evolution of cumulated cases per country
     df_confirmed = prepare_df_states(pd.read_csv(path_confirmed))
