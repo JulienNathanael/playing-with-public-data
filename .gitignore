@@ -2,6 +2,9 @@
 venv
 .idea
 
+# Notebooks
+*.ipynb_checkpoints
+
 # Result files
 *.html
 *.env
