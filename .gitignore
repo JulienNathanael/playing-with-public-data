@@ -1,3 +1,7 @@
 # PyCharm
-.idea
 venv
+.idea
+
+# Result files
+*.html
+*.env
