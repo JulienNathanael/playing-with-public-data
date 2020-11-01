@@ -4,8 +4,8 @@ Python code written quickly: absolutely no warranty on anything here, use it at 
 
 ## Prerequisites
 - python3
-- Install plotly and pandas:
- > python3 -m pip install plotly pandas
+- Install plotly, pandas and jupyter:
+ > python3 -m pip install pandas jupyter plotly>=4.8
 
 ## Get COVID19 raw data: https://github.com/CSSEGISandData/COVID-19
 Go to a folder where you would like to save COVID19 data and clone the repo containing it:
@@ -15,6 +15,8 @@ Go to a folder where you would like to save COVID19 data and clone the repo cont
  > python3 inspect-covid19.py
 - Graphs will open automatically
 - 2 hmtl files will be generated: you can open them with any browser.
+
+## To compare first & second tides run jupyter notebook inspect_france.ipynb
 
 ## Updates
 When new data is available, just git pull the COVID-19 raw data repo and re-run inspect-covid.py to get new graphs and html.
